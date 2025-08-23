@@ -1,0 +1,261 @@
+# Inventory Management System - Gi# React build output
+frontend/build/
+build/
+
+# Angular specific (legacy)
+dist/
+tmp/
+out-tsc/
+/bazel-out
+
+# Angular CLI cache (legacy)
+.angular/
+.angular/cache/e
+
+# ===========================================
+# Node.js / React Frontend
+# ===========================================
+
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Logs
+logs
+*.log
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# Angular specific
+dist/
+tmp/
+out-tsc/
+/bazel-out
+
+# Angular CLI cache
+.angular/
+.angular/cache/
+
+# React build output
+frontend/build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ===========================================
+# Java / Spring Boot Backend
+# ===========================================
+
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Virtual machine crash logs
+hs_err_pid*
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Gradle
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Spring Boot
+*.original
+
+# ===========================================
+# Database & Environment
+# ===========================================
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Application properties with sensitive data
+application-*.properties
+!application.properties
+
+# ===========================================
+# Image and Media Files
+# ===========================================
+
+# Product images (if stored locally)
+product-image/
+frontend/public/products/
+
+# ===========================================
+# Development & Build Tools
+# ===========================================
+
+# Coverage reports
+coverage/
+.nyc_output
+
+# TypeScript
+*.tsbuildinfo
+
+# ESLint cache
+.eslintcache
+
+# Storybook build outputs
+.out
+.storybook-out
+
+# Temporary folders
+temp/
+tmp/
+
+# ===========================================
+# Security & Sensitive Data
+# ===========================================
+
+# JWT keys and certificates
+*.pem
+*.key
+*.crt
+*.p12
+*.jks
+
+# API keys and secrets
+secrets.properties
+config/secrets.yml
+
+# ===========================================
+# Testing
+# ===========================================
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Jest
+coverage/
+*.lcov
+
+# ===========================================
+# Deployment
+# ===========================================
+
+# Docker
+.dockerignore
+
+# Production builds
+dist/
+build/
+
+# ===========================================
+# Documentation that shouldn't be tracked
+# ===========================================
+
+# Auto-generated docs
+docs/generated/
+
+# Personal notes
+notes.txt
+TODO.md
+
+# ===========================================
+# Backup files
+# ===========================================
+
+*.bak
+*.backup
+*.swp
+*.tmp
+
+# SQL dumps (keep dummy_data directory files but ignore others)
+*.sql
+!dummy_data.sql
+!dummy_data/*.sql
+
+# ===========================================
+# Migration and Development Files
+# ===========================================
+
+# Migration status files
+REACT_MIGRATION_STATUS.md
+
+# Test files
+test-login.js
+
+# Shell scripts
+*.sh
+
+# ===========================================
+# Compiled and Generated Files
+# ===========================================
+
+# React compiled files
+frontend/build/
+frontend/.eslintcache
+
+# TypeScript build info
+*.tsbuildinfo
